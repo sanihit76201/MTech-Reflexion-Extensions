@@ -66,8 +66,6 @@ MTech-Reflexion-Extensions/
 │   ├── run_humaneval.py           # Standalone HumanEval runner
 │   ├── make_results_table.py      # Generate paper tables
 │   └── visualize_results.py      # Generate paper figures
-├── analysis/
-│   └── ablation_study.py          # Statistical validation (t-tests, Cohen's d, CIs)
 ├── results/                       # JSON output from all experiments
 ├── HumanEval.jsonl.gz             # HumanEval dataset (164 tasks)
 ├── config.json.template           # API configuration template
@@ -245,3 +243,4 @@ If you use this code in your research, please cite:
 ## Acknowledgements
 
 This work builds upon [Reflexion](https://arxiv.org/abs/2303.11366) by Shinn et al. (NeurIPS 2023). Sentence-BERT embeddings use the [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) model from Reimers & Gurevych (EMNLP 2019). All LLM calls use Google Gemini 2.5 Flash via OpenRouter.
+
