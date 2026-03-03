@@ -1,0 +1,107 @@
+{
+  "memory_scales": [
+    10,
+    50,
+    100,
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "temporal": [
+    {
+      "memory_size": 10,
+      "avg_latency_ms": 0.0008799994247965515,
+      "std_latency_ms": 0.00041665458481168034,
+      "retrievals_per_second": 1136364.37913717
+    },
+    {
+      "memory_size": 50,
+      "avg_latency_ms": 0.0007400012691505253,
+      "std_latency_ms": 0.00018547236993233994,
+      "retrievals_per_second": 1351349.033695492
+    },
+    {
+      "memory_size": 100,
+      "avg_latency_ms": 0.0005599998985417187,
+      "std_latency_ms": 0.0001624813783808278,
+      "retrievals_per_second": 1785714.609242027
+    },
+    {
+      "memory_size": 250,
+      "avg_latency_ms": 0.0005400004738476127,
+      "std_latency_ms": 0.00018547182072522675,
+      "retrievals_per_second": 1851850.2268614646
+    },
+    {
+      "memory_size": 500,
+      "avg_latency_ms": 0.0009400006092619151,
+      "std_latency_ms": 0.0002497993753587372,
+      "retrievals_per_second": 1063829.0977121773
+    },
+    {
+      "memory_size": 1000,
+      "avg_latency_ms": 0.0009400006092619151,
+      "std_latency_ms": 0.0003382290926689556,
+      "retrievals_per_second": 1063829.0977121773
+    },
+    {
+      "memory_size": 2000,
+      "avg_latency_ms": 0.0005599998985417187,
+      "std_latency_ms": 0.00013564634520662778,
+      "retrievals_per_second": 1785714.609242027
+    }
+  ],
+  "vector": [
+    {
+      "memory_size": 10,
+      "avg_latency_ms": 11.226800000440562,
+      "std_latency_ms": 1.5397517557334415,
+      "retrievals_per_second": 89.07257633170254
+    },
+    {
+      "memory_size": 50,
+      "avg_latency_ms": 10.140099999989616,
+      "std_latency_ms": 0.5096849344068138,
+      "retrievals_per_second": 98.61835682103964
+    },
+    {
+      "memory_size": 100,
+      "avg_latency_ms": 9.508040000218898,
+      "std_latency_ms": 0.42167550846914226,
+      "retrievals_per_second": 105.17414735076605
+    },
+    {
+      "memory_size": 250,
+      "avg_latency_ms": 12.035580000519985,
+      "std_latency_ms": 1.3573202315134831,
+      "retrievals_per_second": 83.0869804327499
+    },
+    {
+      "memory_size": 500,
+      "avg_latency_ms": 12.197119999473216,
+      "std_latency_ms": 1.0961500918205713,
+      "retrievals_per_second": 81.9865673243511
+    },
+    {
+      "memory_size": 1000,
+      "avg_latency_ms": 11.95794000159367,
+      "std_latency_ms": 0.7523558588931033,
+      "retrievals_per_second": 83.62644400847697
+    },
+    {
+      "memory_size": 2000,
+      "avg_latency_ms": 12.192540000978624,
+      "std_latency_ms": 0.7483443956245027,
+      "retrievals_per_second": 82.01736470987471
+    }
+  ],
+  "summary": {
+    "avg_temporal_latency_ms": 0.0007371431690574225,
+    "avg_vector_latency_ms": 11.322588571887795,
+    "vector_overhead_multiplier": 15360.094276347803,
+    "temporal_scaling_slope": -3.674809429480789e-08,
+    "vector_scaling_slope": 0.0008752485406108032,
+    "interpretation": "Both O(1) scaling. Vector pays ~10ms constant cost for semantic capability."
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "config": {
+    "memory_scales": [
+      100,
+      500,
+      1000,
+      5000,
+      10000,
+      50000
+    ],
+    "timing_runs_per_size": 5,
+    "timer": "time.perf_counter",
+    "warm_up": true
+  },
+  "temporal": [
+    {
+      "memory_size": 100,
+      "retrieval_latency_ms_mean": 0.0013000004400964826,
+      "retrieval_latency_ms_std": 0.00126964537344627,
+      "retrieval_latency_ms_all_runs": [
+        0.0037999998312443495,
+        0.0011000010999850929,
+        0.0006000009307172149,
+        0.0005000001692678779,
+        0.0005000001692678779
+      ],
+      "memory_footprint_chars": 4680,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 500,
+      "retrieval_latency_ms_mean": 0.0010799994925037026,
+      "retrieval_latency_ms_std": 0.0013136207941897027,
+      "retrieval_latency_ms_all_runs": [
+        0.0036999990697950125,
+        0.0006000009307172149,
+        0.0002999986463692039,
+        0.00039999940781854093,
+        0.00039999940781854093
+      ],
+      "memory_footprint_chars": 24280,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 1000,
+      "retrieval_latency_ms_mean": 0.00109999964479357,
+      "retrieval_latency_ms_std": 0.0012049903484295983,
+      "retrieval_latency_ms_all_runs": [
+        0.0035000011848751456,
+        0.0006999980541877449,
+        0.0005000001692678779,
+        0.00039999940781854093,
+        0.00039999940781854093
+      ],
+      "memory_footprint_chars": 48780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 5000,
+      "retrieval_latency_ms_mean": 0.001479999627918005,
+      "retrieval_latency_ms_std": 0.0021113029945370523,
+      "retrieval_latency_ms_all_runs": [
+        0.005699999746866524,
+        0.0005000001692678779,
+        0.0005000001692678779,
+        0.00039999940781854093,
+        0.0002999986463692039
+      ],
+      "memory_footprint_chars": 252780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 10000,
+      "retrieval_latency_ms_mean": 0.0027000001864507794,
+      "retrieval_latency_ms_std": 0.0039043564353825944,
+      "retrieval_latency_ms_all_runs": [
+        0.01049999991664663,
+        0.000900003215065226,
+        0.0008999995770864189,
+        0.0007999988156370819,
+        0.00039999940781854093
+      ],
+      "memory_footprint_chars": 507780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 50000,
+      "retrieval_latency_ms_mean": 0.0037399993743747473,
+      "retrieval_latency_ms_std": 0.005255322709844115,
+      "retrieval_latency_ms_all_runs": [
+        0.01420000262442045,
+        0.0020999978005420417,
+        0.0008999995770864189,
+        0.0005999972927384079,
+        0.0008999995770864189
+      ],
+      "memory_footprint_chars": 2627780,
+      "retrieved_count": 5
+    }
+  ],
+  "vector": [
+    {
+      "memory_size": 100,
+      "retrieval_latency_ms_mean": 17.61672000066028,
+      "retrieval_latency_ms_std": 11.579740743113561,
+      "retrieval_latency_ms_all_runs": [
+        40.73640000206069,
+        12.711100000160513,
+        12.464600000384962,
+        11.174600000231294,
+        10.996900000463938
+      ],
+      "memory_footprint_chars": 4680,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 500,
+      "retrieval_latency_ms_mean": 13.815859998430824,
+      "retrieval_latency_ms_std": 0.08425080625897549,
+      "retrieval_latency_ms_all_runs": [
+        13.908299999457086,
+        13.783399997919332,
+        13.71619999918039,
+        13.922799997089896,
+        13.748599998507416
+      ],
+      "memory_footprint_chars": 24280,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 1000,
+      "retrieval_latency_ms_mean": 13.999039999907836,
+      "retrieval_latency_ms_std": 0.504451047092654,
+      "retrieval_latency_ms_all_runs": [
+        13.750800000707386,
+        14.46370000121533,
+        14.697599999635713,
+        13.33149999845773,
+        13.751599999523023
+      ],
+      "memory_footprint_chars": 48780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 5000,
+      "retrieval_latency_ms_mean": 13.719900000432972,
+      "retrieval_latency_ms_std": 0.3085891956972351,
+      "retrieval_latency_ms_all_runs": [
+        13.8200000001234,
+        13.978899998619454,
+        13.344499999220716,
+        13.368900003115414,
+        14.087200001085876
+      ],
+      "memory_footprint_chars": 252780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 10000,
+      "retrieval_latency_ms_mean": 14.419939999788767,
+      "retrieval_latency_ms_std": 1.0505387452531085,
+      "retrieval_latency_ms_all_runs": [
+        14.989600000262726,
+        14.143100001092535,
+        13.041599999269238,
+        13.816399998177076,
+        16.10900000014226
+      ],
+      "memory_footprint_chars": 507780,
+      "retrieved_count": 5
+    },
+    {
+      "memory_size": 50000,
+      "retrieval_latency_ms_mean": 12.154180000652559,
+      "retrieval_latency_ms_std": 0.9632562816438283,
+      "retrieval_latency_ms_all_runs": [
+        11.904499999218388,
+        11.258500002440996,
+        12.89829999950598,
+        13.607900000351947,
+        11.101700001745485
+      ],
+      "memory_footprint_chars": 2627780,
+      "retrieved_count": 5
+    }
+  ],
+  "retrieval_quality": {
+    "test_description": "1000 mixed memories, 3 chunking targets buried at positions 490-492",
+    "query": "How to chunk large dataset?",
+    "temporal_hits": 0,
+    "temporal_retrieved": [
+      "Episode 502: explored concept 502",
+      "Episode 503: explored concept 503",
+      "Episode 504: explored concept 504",
+      "Episode 505: explored concept 505",
+      "Episode 506: explored concept 506"
+    ],
+    "vector_hits": 3,
+    "vector_retrieved": [
+      "learned that chunking large datasets improves batch efficiency",
+      "discovered that data chunking reduces memory overflow errors",
+      "chunking strategy: split dataset into 512-row blocks",
+      "Episode 264: explored concept 264",
+      "Episode 370: explored concept 370"
+    ]
+  },
+  "summary": {
+    "avg_temporal_latency_ms": 0.0018999997943562146,
+    "avg_vector_latency_ms": 14.287606666645539,
+    "latency_difference_ms": -14.285706666851183,
+    "temporal_scaling_factor": 2.8769216217320466,
+    "vector_scaling_factor": 0.6899229822689478,
+    "temporal_relevance_hits": 0,
+    "vector_relevance_hits": 3
+  }
+}
